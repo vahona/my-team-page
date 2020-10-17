@@ -1,0 +1,120 @@
+html {
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  max-width: 1440px;
+  max-height: 1489px;
+ 
+}
+
+body {
+  background-color: #FAFAFA;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+  margin-top: 100px;
+
+}
+
+
+.image_list {
+    list-style: none;
+}
+
+img, .iamge_name {
+  margin: 1rem
+}
+
+img {
+  max-width: 100%;
+}
+
+.iamge_name {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.image_role {
+  font-family: PT serif;
+  text-transform: uppercase;
+  font-size: 100%;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  top: 2.5%;
+  right: -10%;
+  padding: 6px;
+  
+}
+
+li {
+  height: 80%;
+  margin: 1rem;
+  position: relative;
+}
+.image_role {
+  flex-wrap: wrap;
+ 
+}
+
+.saba, .lu, .john {
+  margin-top: 30%;
+}
+
+
+.images {
+  margin: 1rem;
+  list-style: none;
+  
+ 
+}
+
+.image_list {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+
+.sub_image_header,
+.image_paragraph {
+    font-family: Poppins;
+}
+
+.iamge_header {
+    font-family: PT serif;
+}
+li {
+  position: relative;
+}
+
+.image_paragraph {
+  max-width: 439px;
+}
+
+.image_list {
+  padding-left: 0;
+}
+
+
+
+@media (min-width: 1110px) {
+  .image_list {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+
+}
+
+.griff {
+  margin-top: 60%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .image_paragraph {
+   grid-column: 2;
+ }
+
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

@@ -20,11 +20,13 @@ body {
 }
 
 img, .iamge_name {
-  margin: 1rem
+  margin: 1rem;
+  margin-left: 0;
 }
 
 img {
   max-width: 100%;
+  
 }
 
 .iamge_name {
@@ -49,6 +51,7 @@ li {
   height: 80%;
   margin: 1rem;
   position: relative;
+  margin-left: 0;
 }
 .image_role {
   flex-wrap: wrap;
@@ -81,9 +84,7 @@ li {
 .iamge_header {
     font-family: PT serif;
 }
-li {
-  position: relative;
-}
+
 
 .image_paragraph {
   max-width: 439px;

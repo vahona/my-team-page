@@ -1,0 +1,78 @@
+
+
+.image_list {
+    list-style: none;
+}
+
+.iamge_name {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.image_role {
+  font-family: PT serif;
+  text-transform: uppercase;
+  font-size: 100%;
+  transform: translate(50%, -1000%) rotate(90deg);
+  margin-left: 2rem;
+  
+ 
+}
+
+li {
+  height: 80%;
+}
+.image_role {
+  height: 20px;
+  flex-wrap: wrap;
+ 
+}
+
+.saba, .lu, .john {
+  margin-top: 30%;
+}
+
+
+.images {
+  margin: 1rem;
+  list-style: none;
+  
+ 
+}
+
+.image_list {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+
+.sub_image_header,
+.image_paragraph {
+    font-family: Poppins;
+}
+
+.iamge_header {
+    font-family: PT serif;
+}
+
+@media (min-width: 1110px) {
+  .image_list {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+
+}
+
+.griff {
+  margin-top: 60%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .image_paragraph {
+   grid-column: 2;
+ }
+
+}

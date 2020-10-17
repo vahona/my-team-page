@@ -1,0 +1,25 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "![screenshot](screenshot.png)",
+  "main": "App.js",
+  "dependencies": {
+    "react-dom": "^16.13.1",
+    "react": "^16.13.1"
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahona/my-team-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vahona/my-team-page/issues"
+  },
+  "homepage": "https://github.com/vahona/my-team-page#readme"
+}

@@ -1,7 +1,30 @@
+html {
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  max-width: 1440px;
+  max-height: 1489px;
+ 
+}
+
+body {
+  background-color: #FAFAFA;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+  margin-top: 100px;
+
+}
 
 
 .image_list {
     list-style: none;
+}
+
+img, .iamge_name {
+  margin: 1rem
+}
+
+img {
+  max-width: 100%;
 }
 
 .iamge_name {
@@ -13,17 +36,21 @@
   font-family: PT serif;
   text-transform: uppercase;
   font-size: 100%;
-  transform: translate(50%, -1000%) rotate(90deg);
-  margin-left: 2rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  top: 2.5%;
+  right: -10%;
+  padding: 6px;
   
- 
 }
 
 li {
   height: 80%;
+  margin: 1rem;
+  position: relative;
 }
 .image_role {
-  height: 20px;
   flex-wrap: wrap;
  
 }
@@ -54,11 +81,24 @@ li {
 .iamge_header {
     font-family: PT serif;
 }
+li {
+  position: relative;
+}
+
+.image_paragraph {
+  max-width: 439px;
+}
+
+.image_list {
+  padding-left: 0;
+}
+
+
 
 @media (min-width: 1110px) {
   .image_list {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
 
 }
 
